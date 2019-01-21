@@ -26,7 +26,6 @@ body{text-align:center}
 <br><br>
 <p style="font-size:30px">1、安装证书。</p>
 <p style="font-size:30px">2、在【设置-通用-关于本机-证书信任设置】中针对根证书启用完全信任。</p>
-<p style="font-size:30px">任何问题请联系iOS杨阳</p>
 </body>
 </html>
 

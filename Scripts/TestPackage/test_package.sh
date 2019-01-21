@@ -110,9 +110,6 @@ fastlane gym\
 	--build_path ${output_path}\
 	--export_options ${export_plist_path}
     
-#xcodebuild clean -workspace ${workspace_path} -scheme ${scheme} -configuration ${configuration}
-#xcodebuild archive -workspace ${workspace_path} -scheme ${scheme} -archivePath ${archive_path} -configuration ${configuration}
-#xcodebuild -exportArchive -archivePath ${archive_path} -exportPath ${output_path} -exportOptionsPlist ${export_plist_path}
 gym_result=$?
 #打完包之后换回Xcode
 switchXcodeVersion Xcode.app
